@@ -3,7 +3,7 @@
 sentence = input("Enter a sentence: ")
 
 if sentence.strip() == "":
-    print("You did not enter a sentence. Please try again.")
+    print("You did not enter a sentence.")
 else:
     word_count = len(sentence.split())
     character_count = len(sentence)
